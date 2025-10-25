@@ -9,41 +9,41 @@ ifndef verbose
 endif
 
 ifeq ($(config),release_64bit)
-  wren_cli_config = release_64bit
+  sciwren_config = release_64bit
 
 else ifeq ($(config),release_32bit)
-  wren_cli_config = release_32bit
+  sciwren_config = release_32bit
 
 else ifeq ($(config),release_64bit-no-nan-tagging)
-  wren_cli_config = release_64bit-no-nan-tagging
+  sciwren_config = release_64bit-no-nan-tagging
 
 else ifeq ($(config),debug_64bit)
-  wren_cli_config = debug_64bit
+  sciwren_config = debug_64bit
 
 else ifeq ($(config),debug_32bit)
-  wren_cli_config = debug_32bit
+  sciwren_config = debug_32bit
 
 else ifeq ($(config),debug_64bit-no-nan-tagging)
-  wren_cli_config = debug_64bit-no-nan-tagging
+  sciwren_config = debug_64bit-no-nan-tagging
 
 else
   $(error "invalid configuration $(config)")
 endif
 
-PROJECTS := wren_cli
+PROJECTS := sciwren
 
 .PHONY: all clean help $(PROJECTS) 
 
 all: $(PROJECTS)
 
-wren_cli:
-ifneq (,$(wren_cli_config))
-	@echo "==== Building wren_cli ($(wren_cli_config)) ===="
-	@${MAKE} --no-print-directory -C . -f wren_cli.make config=$(wren_cli_config)
+sciwren:
+ifneq (,$(sciwren_config))
+	@echo "==== Building sciwren ($(sciwren_config)) ===="
+	@${MAKE} --no-print-directory -C . -f sciwren.make config=$(sciwren_config)
 endif
 
 clean:
-	@${MAKE} --no-print-directory -C . -f wren_cli.make clean
+	@${MAKE} --no-print-directory -C . -f sciwren.make clean
 
 help:
 	@echo "Usage: make [config=name] [target]"
@@ -59,6 +59,6 @@ help:
 	@echo "TARGETS:"
 	@echo "   all (default)"
 	@echo "   clean"
-	@echo "   wren_cli"
+	@echo "   sciwren"
 	@echo ""
 	@echo "For more information, see https://github.com/premake/premake-core/wiki"

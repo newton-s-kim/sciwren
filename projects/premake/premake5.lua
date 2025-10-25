@@ -1,4 +1,4 @@
-workspace "wren-cli"
+workspace "sciwren"
   configurations { "Release", "Debug" }
   platforms { "64bit", "32bit", "64bit-no-nan-tagging" }
   defaultplatform "64bit"
@@ -42,7 +42,7 @@ workspace "wren-cli"
   filter { "action:gmake2", "system:macosx" }
     location ("../make.mac")
 
-project "wren_cli"
+project "sciwren"
   kind "ConsoleApp"
   language "C++"
   cdialect "C99"

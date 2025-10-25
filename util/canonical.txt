@@ -1,0 +1,517 @@
+[2K(bin/wren_cli) Passed: [32m0[0m Failed: [31m0[0m Skipped: [33m0[0m [2K(bin/wren_cli) Passed: [32m1[0m Failed: [31m0[0m Skipped: [33m0[0m [2K[31mFAIL[0m: ../test/os/process/all_arguments.wren
+      [91mExpected output "test/os/process/all_arguments.wren" on line 9 and got "../test/os/process/all_arguments.wren".[0m
+
+[2K(bin/wren_cli) Passed: [32m1[0m Failed: [31m1[0m Skipped: [33m0[0m [2K(bin/wren_cli) Passed: [32m2[0m Failed: [31m1[0m Skipped: [33m0[0m [2K(bin/wren_cli) Passed: [32m3[0m Failed: [31m1[0m Skipped: [33m0[0m [2K(bin/wren_cli) Passed: [32m4[0m Failed: [31m1[0m Skipped: [33m0[0m [2K(bin/wren_cli) Passed: [32m5[0m Failed: [31m1[0m Skipped: [33m0[0m [2K(bin/wren_cli) Passed: [32m6[0m Failed: [31m1[0m Skipped: [33m0[0m [2K(bin/wren_cli) Passed: [32m7[0m Failed: [31m1[0m Skipped: [33m0[0m [2K(bin/wren_cli) Passed: [32m8[0m Failed: [31m1[0m Skipped: [33m0[0m [2K(bin/wren_cli) Passed: [32m9[0m Failed: [31m1[0m Skipped: [33m0[0m [2K(bin/wren_cli) Passed: [32m9[0m Failed: [31m1[0m Skipped: [33m1[0m [2K(bin/wren_cli) Passed: [32m10[0m Failed: [31m1[0m Skipped: [33m1[0m [2K(bin/wren_cli) Passed: [32m10[0m Failed: [31m1[0m Skipped: [33m2[0m [2K(bin/wren_cli) Passed: [32m11[0m Failed: [31m1[0m Skipped: [33m2[0m [2K(bin/wren_cli) Passed: [32m12[0m Failed: [31m1[0m Skipped: [33m2[0m [2K(bin/wren_cli) Passed: [32m12[0m Failed: [31m1[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/stat/is_file.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 198] in path(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/stat/is_file line 3] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 198] in path(_)[0m
+      [91m[../test/io/stat/is_file line 3] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "true" on line 3.[0m
+      [91mMissing expected output "false" on line 4.[0m
+
+[2K(bin/wren_cli) Passed: [32m12[0m Failed: [31m2[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/stat/path.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 198] in path(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/stat/path line 3] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 198] in path(_)[0m
+      [91m[../test/io/stat/path line 3] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "true" on line 5.[0m
+      [91mMissing expected output "true" on line 6.[0m
+      [91mMissing expected output "true" on line 7.[0m
+      [91mMissing expected output "true" on line 8.[0m
+      [91mMissing expected output "1" on line 9.[0m
+      [91mMissing expected output "true" on line 10.[0m
+      [91mMissing expected output "true" on line 11.[0m
+      [91mMissing expected output "0" on line 12.[0m
+      [91mMissing expected output "19" on line 13.[0m
+      [91mMissing expected output "true" on line 14.[0m
+      [91mMissing expected output "true" on line 15.[0m
+
+[2K(bin/wren_cli) Passed: [32m12[0m Failed: [31m3[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m13[0m Failed: [31m3[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/stat/is_directory.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 198] in path(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/stat/is_directory line 3] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 198] in path(_)[0m
+      [91m[../test/io/stat/is_directory line 3] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "false" on line 3.[0m
+      [91mMissing expected output "true" on line 4.[0m
+
+[2K(bin/wren_cli) Passed: [32m13[0m Failed: [31m4[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/stat/path_directory.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 198] in path(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/stat/path_directory line 3] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 198] in path(_)[0m
+      [91m[../test/io/stat/path_directory line 3] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "true" on line 5.[0m
+      [91mMissing expected output "true" on line 6.[0m
+      [91mMissing expected output "true" on line 7.[0m
+      [91mMissing expected output "true" on line 8.[0m
+      [91mMissing expected output "true" on line 9.[0m
+      [91mMissing expected output "true" on line 10.[0m
+      [91mMissing expected output "true" on line 11.[0m
+      [91mMissing expected output "0" on line 12.[0m
+      [91mMissing expected output "true" on line 13.[0m
+      [91mMissing expected output "true" on line 14.[0m
+      [91mMissing expected output "true" on line 15.[0m
+
+[2K(bin/wren_cli) Passed: [32m13[0m Failed: [31m5[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m14[0m Failed: [31m5[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m15[0m Failed: [31m5[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/directory/exists.wren
+      [91mExpected output "true" on line 3 and got "false".[0m
+
+[2K(bin/wren_cli) Passed: [32m15[0m Failed: [31m6[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m16[0m Failed: [31m6[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m17[0m Failed: [31m6[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/directory/list.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 33] in list(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/directory/list line 3] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 33] in list(_)[0m
+      [91m[../test/io/directory/list line 3] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "[a.txt, b.txt, c.txt]" on line 8.[0m
+
+[2K(bin/wren_cli) Passed: [32m17[0m Failed: [31m7[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/directory/list_file.wren
+      [91mExpected runtime error "not a directory" and got:[0m
+      [91mno such file or directory[0m
+
+[2K(bin/wren_cli) Passed: [32m17[0m Failed: [31m8[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m18[0m Failed: [31m8[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m19[0m Failed: [31m8[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read_bytes_from_count_negative.wren
+      [91mExpected runtime error "Count cannot be negative." and got:[0m
+      [91mno such file or directory[0m
+      [91mExpected runtime error on line 4 but was on line 3.[0m
+
+[2K(bin/wren_cli) Passed: [32m19[0m Failed: [31m9[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m20[0m Failed: [31m9[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read_bytes_count_not_num.wren
+      [91mExpected runtime error "Count must be an integer." and got:[0m
+      [91mno such file or directory[0m
+      [91mExpected runtime error on line 4 but was on line 3.[0m
+
+[2K(bin/wren_cli) Passed: [32m20[0m Failed: [31m10[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read_bytes_from_after_close.wren
+      [91mExpected runtime error "File is not open." and got:[0m
+      [91mno such file or directory[0m
+      [91mExpected runtime error on line 6 but was on line 3.[0m
+
+[2K(bin/wren_cli) Passed: [32m20[0m Failed: [31m11[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m21[0m Failed: [31m11[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m22[0m Failed: [31m11[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m23[0m Failed: [31m11[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m24[0m Failed: [31m11[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m25[0m Failed: [31m11[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/exists.wren
+      [91mExpected output "true" on line 3 and got "false".[0m
+
+[2K(bin/wren_cli) Passed: [32m25[0m Failed: [31m12[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m26[0m Failed: [31m12[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/descriptor.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 73] in open(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/file/descriptor line 3] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91m[io line 73] in open(_)[0m
+      [91m[../test/io/file/descriptor line 3] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "true" on line 7.[0m
+      [91mMissing expected output "true" on line 8.[0m
+      [91mMissing expected output "-1" on line 11.[0m
+
+[2K(bin/wren_cli) Passed: [32m26[0m Failed: [31m13[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/stat_after_close.wren
+      [91mExpected runtime error "File is not open." and got:[0m
+      [91mno such file or directory[0m
+      [91mExpected runtime error on line 6 but was on line 3.[0m
+
+[2K(bin/wren_cli) Passed: [32m26[0m Failed: [31m14[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read_bytes_from_count_not_integer.wren
+      [91mExpected runtime error "Count must be an integer." and got:[0m
+      [91mno such file or directory[0m
+      [91mExpected runtime error on line 4 but was on line 3.[0m
+
+[2K(bin/wren_cli) Passed: [32m26[0m Failed: [31m15[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/size_static.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 112] in size(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/file/size_static line 4] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 112] in size(_)[0m
+      [91m[../test/io/file/size_static line 4] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "19" on line 4.[0m
+      [91mMissing expected output "async" on line 12.[0m
+      [91mMissing expected output "19" on line 13.[0m
+
+[2K(bin/wren_cli) Passed: [32m26[0m Failed: [31m16[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m27[0m Failed: [31m16[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/close.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 73] in open(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/file/close line 6] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91m[io line 73] in open(_)[0m
+      [91m[../test/io/file/close line 6] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "null" on line 8.[0m
+      [91mMissing expected output "sync" on line 19.[0m
+
+[2K(bin/wren_cli) Passed: [32m27[0m Failed: [31m17[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read_bytes_count_negative.wren
+      [91mExpected runtime error "Count cannot be negative." and got:[0m
+      [91mno such file or directory[0m
+      [91mExpected runtime error on line 4 but was on line 3.[0m
+
+[2K(bin/wren_cli) Passed: [32m27[0m Failed: [31m18[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/stat.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 73] in open(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/file/stat line 3] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91m[io line 73] in open(_)[0m
+      [91m[../test/io/file/stat line 3] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "true" on line 6.[0m
+      [91mMissing expected output "true" on line 7.[0m
+      [91mMissing expected output "true" on line 8.[0m
+      [91mMissing expected output "true" on line 9.[0m
+      [91mMissing expected output "1" on line 10.[0m
+      [91mMissing expected output "true" on line 11.[0m
+      [91mMissing expected output "true" on line 12.[0m
+      [91mMissing expected output "0" on line 13.[0m
+      [91mMissing expected output "19" on line 14.[0m
+      [91mMissing expected output "true" on line 15.[0m
+      [91mMissing expected output "true" on line 16.[0m
+
+[2K(bin/wren_cli) Passed: [32m27[0m Failed: [31m19[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m28[0m Failed: [31m19[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read_bytes_from_offset_not_num.wren
+      [91mExpected runtime error "Offset must be an integer." and got:[0m
+      [91mno such file or directory[0m
+      [91mExpected runtime error on line 4 but was on line 3.[0m
+
+[2K(bin/wren_cli) Passed: [32m28[0m Failed: [31m20[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read_bytes_count_not_integer.wren
+      [91mExpected runtime error "Count must be an integer." and got:[0m
+      [91mno such file or directory[0m
+      [91mExpected runtime error on line 4 but was on line 3.[0m
+
+[2K(bin/wren_cli) Passed: [32m28[0m Failed: [31m21[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m29[0m Failed: [31m21[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/open.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 73] in open(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/file/open line 3] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91m[io line 73] in open(_)[0m
+      [91m[../test/io/file/open line 3] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "true" on line 4.[0m
+      [91mMissing expected output "true" on line 5.[0m
+
+[2K(bin/wren_cli) Passed: [32m29[0m Failed: [31m22[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m30[0m Failed: [31m22[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read_bytes_after_close.wren
+      [91mExpected runtime error "File is not open." and got:[0m
+      [91mno such file or directory[0m
+      [91mExpected runtime error on line 6 but was on line 3.[0m
+
+[2K(bin/wren_cli) Passed: [32m30[0m Failed: [31m23[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/size.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 73] in open(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/file/size line 3] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91m[io line 73] in open(_)[0m
+      [91m[../test/io/file/size line 3] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "19" on line 4.[0m
+
+[2K(bin/wren_cli) Passed: [32m30[0m Failed: [31m24[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 87] in openWithFlags(_,_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 75] in open(_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 100] in read(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/file/read line 3] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91m[io line 87] in openWithFlags(_,_,_)[0m
+      [91m[io line 75] in open(_,_)[0m
+      [91m[io line 100] in read(_)[0m
+      [91m[../test/io/file/read line 3] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "this is a text file" on line 4.[0m
+      [91mMissing expected output "19" on line 5.[0m
+
+[2K(bin/wren_cli) Passed: [32m30[0m Failed: [31m25[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read_bytes_from.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 73] in open(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/file/read_bytes_from line 3] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91m[io line 73] in open(_)[0m
+      [91m[../test/io/file/read_bytes_from line 3] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "thi" on line 6.[0m
+      [91mMissing expected output "s is a t" on line 9.[0m
+      [91mMissing expected output "0" on line 12.[0m
+      [91mMissing expected output "is is a text file" on line 15.[0m
+      [91mMissing expected output "0" on line 18.[0m
+
+[2K(bin/wren_cli) Passed: [32m30[0m Failed: [31m26[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/open_block_wrong_block_type.wren
+      [91mExpected runtime error "String does not implement 'call(_)'." and got:[0m
+      [91mno such file or directory[0m
+
+[2K(bin/wren_cli) Passed: [32m30[0m Failed: [31m27[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m31[0m Failed: [31m27[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read_bytes_from_count_not_num.wren
+      [91mExpected runtime error "Count must be an integer." and got:[0m
+      [91mno such file or directory[0m
+      [91mExpected runtime error on line 4 but was on line 3.[0m
+
+[2K(bin/wren_cli) Passed: [32m31[0m Failed: [31m28[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m32[0m Failed: [31m28[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/open_block.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 87] in openWithFlags(_,_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 75] in open(_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/file/open_block line 8] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91m[io line 87] in openWithFlags(_,_,_)[0m
+      [91m[io line 75] in open(_,_)[0m
+      [91m[../test/io/file/open_block line 8] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "true" on line 5.[0m
+      [91mMissing expected output "true" on line 6.[0m
+      [91mMissing expected output "false" on line 11.[0m
+      [91mMissing expected output "null" on line 14.[0m
+
+[2K(bin/wren_cli) Passed: [32m32[0m Failed: [31m29[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/finalize.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 73] in open(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/file/finalize line 4] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91m[io line 73] in open(_)[0m
+      [91m[../test/io/file/finalize line 4] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "ok" on line 10.[0m
+
+[2K(bin/wren_cli) Passed: [32m32[0m Failed: [31m30[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read_bytes_from_offset_not_integer.wren
+      [91mExpected runtime error "Offset must be an integer." and got:[0m
+      [91mno such file or directory[0m
+      [91mExpected runtime error on line 4 but was on line 3.[0m
+
+[2K(bin/wren_cli) Passed: [32m32[0m Failed: [31m31[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m33[0m Failed: [31m31[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m34[0m Failed: [31m31[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read_bytes_from_offset_negative.wren
+      [91mExpected runtime error "Offset cannot be negative." and got:[0m
+      [91mno such file or directory[0m
+      [91mExpected runtime error on line 4 but was on line 3.[0m
+
+[2K(bin/wren_cli) Passed: [32m34[0m Failed: [31m32[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m35[0m Failed: [31m32[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m36[0m Failed: [31m32[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m37[0m Failed: [31m32[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m38[0m Failed: [31m32[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/read_bytes.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 73] in open(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/file/read_bytes line 3] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91m[io line 73] in open(_)[0m
+      [91m[../test/io/file/read_bytes line 3] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "thi" on line 5.[0m
+      [91mMissing expected output "this is" on line 8.[0m
+      [91mMissing expected output "0" on line 11.[0m
+      [91mMissing expected output "this is a text file" on line 14.[0m
+      [91mMissing expected output "19" on line 17.[0m
+
+[2K(bin/wren_cli) Passed: [32m38[0m Failed: [31m33[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m39[0m Failed: [31m33[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/is_open.wren
+      [91mUnexpected output on stderr:[0m
+      [91mno such file or directory[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[io line 73] in open(_)[0m
+      [91mUnexpected output on stderr:[0m
+      [91m[../test/io/file/is_open line 3] in (script)[0m
+      [91mExpected return code 0 and got 70. Stderr:[0m
+      [91mno such file or directory[0m
+      [91m[scheduler line 24] in runNextScheduled_()[0m
+      [91m[scheduler line 19] in await_(_)[0m
+      [91m[io line 82] in openWithFlags(_,_)[0m
+      [91m[io line 73] in open(_)[0m
+      [91m[../test/io/file/is_open line 3] in (script)[0m
+      [91m[0m
+      [91mMissing expected output "true" on line 4.[0m
+      [91mMissing expected output "false" on line 6.[0m
+
+[2K(bin/wren_cli) Passed: [32m39[0m Failed: [31m34[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m40[0m Failed: [31m34[0m Skipped: [33m3[0m [2K[31mFAIL[0m: ../test/io/file/size_after_close.wren
+      [91mExpected runtime error "File is not open." and got:[0m
+      [91mno such file or directory[0m
+      [91mExpected runtime error on line 6 but was on line 3.[0m
+
+[2K(bin/wren_cli) Passed: [32m40[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m40[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m40[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m41[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m41[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m42[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m42[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m43[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m43[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m44[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m45[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m46[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m47[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m48[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m49[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m50[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m51[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m52[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m53[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m54[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m55[0m Failed: [31m35[0m Skipped: [33m3[0m [2K(bin/wren_cli) Passed: [32m56[0m Failed: [31m35[0m Skipped: [33m3[0m [2K[32m57[0m tests passed. [31m35[0m tests failed.
+Skipped [33m3[0m tests: 

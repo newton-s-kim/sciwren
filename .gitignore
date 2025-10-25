@@ -1,41 +1,50 @@
-# Prerequisites
-*.d
+# Build outputs.
+/bin
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Intermediate files.
+.vs
+/build
+Debug/
+Release
+obj/
+/obj
+/.sass-cache
+*.pyc
 
-# Precompiled Headers
-*.gch
-*.pch
+# I leave a temporary Wren script at the top level so that I can quickly test
+# stuff.
+/scratch.wren
 
-# Linker files
-*.ilk
+# The baseline file is machine-specific, so doesn't get checked in.
+/test/benchmark/baseline.txt
 
-# Debugger Files
-*.pdb
+# VSCode project files.
+.vscode
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# XCode user-specific stuff.
+xcuserdata/
 
-# Fortran module files
-*.mod
-*.smod
+# Allow Visual Studio project files.
+!wren/
+!wren_lib/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Visual Studio cache files.
+.vs/
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
 
-# Executables
-*.exe
-*.out
-*.app
+# Visual Studio User-specific files.
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# debug information files
-*.dwo
+# macOS XCode build cache
+deps/libuv/build/XCBuildData/
+
+# macOS
+.DS_Store
